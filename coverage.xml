@@ -1,0 +1,133 @@
+<?xml-stylesheet type='text/xsl' href='coverage.xsl'?>
+<coverage profilerVersion="0" driverVersion="0" startTime="9999-12-31T23:59:59.9999999" measureTime="0001-01-01T00:00:00.0000000">
+  <module moduleId="f4079a68-ebc7-4999-b7b1-36866b966dcd" name="LocationService" assembly="LocationService" assemblyIdentity="LocationService">
+    <method name=".ctor" class="LocationService.Controllers.LocationRecordController" excluded="false" instrumented="true" fullname="System.Void LocationService.Controllers.LocationRecordController::.ctor(LocationService.Models.ILocationRecordRepository)">
+      <seqpnt visitcount="1" line="14" column="9" endline="15" endcolumn="49" excluded="false" document="C:\projects\LocationService\src\LocationService\Controllers\LocationRecordController.cs" />
+      <seqpnt visitcount="1" line="17" column="13" endline="17" endcolumn="50" excluded="false" document="C:\projects\LocationService\src\LocationService\Controllers\LocationRecordController.cs" />
+    </method>
+    <method name="AddLocation" class="LocationService.Controllers.LocationRecordController" excluded="false" instrumented="true" fullname="Microsoft.AspNetCore.Mvc.IActionResult LocationService.Controllers.LocationRecordController::AddLocation(System.Guid,LocationService.Models.LocationRecord)">
+      <seqpnt visitcount="1" line="25" column="13" endline="25" endcolumn="52" excluded="false" document="C:\projects\LocationService\src\LocationService\Controllers\LocationRecordController.cs" />
+      <seqpnt visitcount="1" line="26" column="13" endline="28" endcolumn="33" excluded="false" document="C:\projects\LocationService\src\LocationService\Controllers\LocationRecordController.cs" />
+    </method>
+    <method name="GetLocationsForMember" class="LocationService.Controllers.LocationRecordController" excluded="false" instrumented="true" fullname="Microsoft.AspNetCore.Mvc.IActionResult LocationService.Controllers.LocationRecordController::GetLocationsForMember(System.Guid)">
+      <seqpnt visitcount="1" line="34" column="13" endline="34" endcolumn="71" excluded="false" document="C:\projects\LocationService\src\LocationService\Controllers\LocationRecordController.cs" />
+    </method>
+    <method name="GetLatestForMember" class="LocationService.Controllers.LocationRecordController" excluded="false" instrumented="true" fullname="Microsoft.AspNetCore.Mvc.IActionResult LocationService.Controllers.LocationRecordController::GetLatestForMember(System.Guid)">
+      <seqpnt visitcount="1" line="40" column="13" endline="41" endcolumn="65" excluded="false" document="C:\projects\LocationService\src\LocationService\Controllers\LocationRecordController.cs" />
+    </method>
+    <method name="get_ID" class="LocationService.Models.LocationRecord" excluded="false" instrumented="true" fullname="System.Guid LocationService.Models.LocationRecord::get_ID()">
+      <seqpnt visitcount="1" line="9" column="26" endline="9" endcolumn="30" excluded="false" document="C:\projects\LocationService\src\LocationService\Models\LocationRecord.cs" />
+    </method>
+    <method name="set_ID" class="LocationService.Models.LocationRecord" excluded="false" instrumented="true" fullname="System.Void LocationService.Models.LocationRecord::set_ID(System.Guid)">
+      <seqpnt visitcount="1" line="9" column="31" endline="9" endcolumn="35" excluded="false" document="C:\projects\LocationService\src\LocationService\Models\LocationRecord.cs" />
+    </method>
+    <method name="get_Latitude" class="LocationService.Models.LocationRecord" excluded="false" instrumented="true" fullname="System.Single LocationService.Models.LocationRecord::get_Latitude()">
+      <seqpnt visitcount="0" line="10" column="33" endline="10" endcolumn="37" excluded="false" document="C:\projects\LocationService\src\LocationService\Models\LocationRecord.cs" />
+    </method>
+    <method name="set_Latitude" class="LocationService.Models.LocationRecord" excluded="false" instrumented="true" fullname="System.Void LocationService.Models.LocationRecord::set_Latitude(System.Single)">
+      <seqpnt visitcount="1" line="10" column="38" endline="10" endcolumn="42" excluded="false" document="C:\projects\LocationService\src\LocationService\Models\LocationRecord.cs" />
+    </method>
+    <method name="get_Longitude" class="LocationService.Models.LocationRecord" excluded="false" instrumented="true" fullname="System.Single LocationService.Models.LocationRecord::get_Longitude()">
+      <seqpnt visitcount="0" line="11" column="34" endline="11" endcolumn="38" excluded="false" document="C:\projects\LocationService\src\LocationService\Models\LocationRecord.cs" />
+    </method>
+    <method name="set_Longitude" class="LocationService.Models.LocationRecord" excluded="false" instrumented="true" fullname="System.Void LocationService.Models.LocationRecord::set_Longitude(System.Single)">
+      <seqpnt visitcount="1" line="11" column="39" endline="11" endcolumn="43" excluded="false" document="C:\projects\LocationService\src\LocationService\Models\LocationRecord.cs" />
+    </method>
+    <method name="get_Altitude" class="LocationService.Models.LocationRecord" excluded="false" instrumented="true" fullname="System.Single LocationService.Models.LocationRecord::get_Altitude()">
+      <seqpnt visitcount="0" line="12" column="33" endline="12" endcolumn="37" excluded="false" document="C:\projects\LocationService\src\LocationService\Models\LocationRecord.cs" />
+    </method>
+    <method name="set_Altitude" class="LocationService.Models.LocationRecord" excluded="false" instrumented="true" fullname="System.Void LocationService.Models.LocationRecord::set_Altitude(System.Single)">
+      <seqpnt visitcount="1" line="12" column="38" endline="12" endcolumn="42" excluded="false" document="C:\projects\LocationService\src\LocationService\Models\LocationRecord.cs" />
+    </method>
+    <method name="get_Timestamp" class="LocationService.Models.LocationRecord" excluded="false" instrumented="true" fullname="System.Int64 LocationService.Models.LocationRecord::get_Timestamp()">
+      <seqpnt visitcount="1" line="13" column="33" endline="13" endcolumn="37" excluded="false" document="C:\projects\LocationService\src\LocationService\Models\LocationRecord.cs" />
+    </method>
+    <method name="set_Timestamp" class="LocationService.Models.LocationRecord" excluded="false" instrumented="true" fullname="System.Void LocationService.Models.LocationRecord::set_Timestamp(System.Int64)">
+      <seqpnt visitcount="1" line="13" column="38" endline="13" endcolumn="42" excluded="false" document="C:\projects\LocationService\src\LocationService\Models\LocationRecord.cs" />
+    </method>
+    <method name="get_MemberID" class="LocationService.Models.LocationRecord" excluded="false" instrumented="true" fullname="System.Guid LocationService.Models.LocationRecord::get_MemberID()">
+      <seqpnt visitcount="1" line="14" column="32" endline="14" endcolumn="36" excluded="false" document="C:\projects\LocationService\src\LocationService\Models\LocationRecord.cs" />
+    </method>
+    <method name="set_MemberID" class="LocationService.Models.LocationRecord" excluded="false" instrumented="true" fullname="System.Void LocationService.Models.LocationRecord::set_MemberID(System.Guid)">
+      <seqpnt visitcount="1" line="14" column="37" endline="14" endcolumn="41" excluded="false" document="C:\projects\LocationService\src\LocationService\Models\LocationRecord.cs" />
+    </method>
+    <method name=".ctor" class="LocationService.Persistence.InMemoryLocationRecordRepository" excluded="false" instrumented="true" fullname="System.Void LocationService.Persistence.InMemoryLocationRecordRepository::.ctor()">
+      <seqpnt visitcount="1" line="13" column="9" endline="13" endcolumn="50" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="1" line="15" column="13" endline="15" endcolumn="41" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="1" line="17" column="17" endline="17" endcolumn="92" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+    </method>
+    <method name="Add" class="LocationService.Persistence.InMemoryLocationRecordRepository" excluded="false" instrumented="true" fullname="LocationService.Models.LocationRecord LocationService.Persistence.InMemoryLocationRecordRepository::Add(LocationService.Models.LocationRecord)">
+      <seqpnt visitcount="1" line="23" column="13" endline="23" endcolumn="75" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="1" line="24" column="13" endline="24" endcolumn="73" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="1" line="25" column="13" endline="25" endcolumn="35" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+    </method>
+    <method name="AllForMember" class="LocationService.Persistence.InMemoryLocationRecordRepository" excluded="false" instrumented="true" fullname="System.Collections.Generic.ICollection`1&lt;LocationService.Models.LocationRecord&gt; LocationService.Persistence.InMemoryLocationRecordRepository::AllForMember(System.Guid)">
+      <seqpnt visitcount="1" line="30" column="13" endline="30" endcolumn="60" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="1" line="31" column="13" endline="31" endcolumn="85" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+    </method>
+    <method name="Delete" class="LocationService.Persistence.InMemoryLocationRecordRepository" excluded="false" instrumented="true" fullname="LocationService.Models.LocationRecord LocationService.Persistence.InMemoryLocationRecordRepository::Delete(System.Guid,System.Guid)">
+      <seqpnt visitcount="0" line="36" column="13" endline="36" endcolumn="60" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="0" line="38" column="13" endline="38" endcolumn="100" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="0" line="40" column="13" endline="40" endcolumn="28" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="0" line="42" column="17" endline="42" endcolumn="52" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="0" line="45" column="13" endline="45" endcolumn="23" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+    </method>
+    <method name="Get" class="LocationService.Persistence.InMemoryLocationRecordRepository" excluded="false" instrumented="true" fullname="LocationService.Models.LocationRecord LocationService.Persistence.InMemoryLocationRecordRepository::Get(System.Guid,System.Guid)">
+      <seqpnt visitcount="0" line="50" column="13" endline="50" endcolumn="60" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="0" line="52" column="13" endline="52" endcolumn="100" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="0" line="53" column="13" endline="53" endcolumn="23" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+    </method>
+    <method name="Update" class="LocationService.Persistence.InMemoryLocationRecordRepository" excluded="false" instrumented="true" fullname="LocationService.Models.LocationRecord LocationService.Persistence.InMemoryLocationRecordRepository::Update(LocationService.Models.LocationRecord)">
+      <seqpnt visitcount="0" line="58" column="13" endline="58" endcolumn="71" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+    </method>
+    <method name="GetLatestForMember" class="LocationService.Persistence.InMemoryLocationRecordRepository" excluded="false" instrumented="true" fullname="LocationService.Models.LocationRecord LocationService.Persistence.InMemoryLocationRecordRepository::GetLatestForMember(System.Guid)">
+      <seqpnt visitcount="1" line="63" column="13" endline="63" endcolumn="60" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="1" line="64" column="13" endline="64" endcolumn="70" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="1" line="65" column="13" endline="65" endcolumn="23" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+    </method>
+    <method name="getMemberRecords" class="LocationService.Persistence.InMemoryLocationRecordRepository" excluded="false" instrumented="true" fullname="System.Collections.Generic.SortedList`2&lt;System.Int64,LocationService.Models.LocationRecord&gt; LocationService.Persistence.InMemoryLocationRecordRepository::getMemberRecords(System.Guid)">
+      <seqpnt visitcount="1" line="70" column="13" endline="70" endcolumn="56" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="1" line="72" column="17" endline="72" endcolumn="87" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="1" line="75" column="13" endline="75" endcolumn="50" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="1" line="76" column="13" endline="76" endcolumn="25" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+    </method>
+    <method name="&lt;AllForMember&gt;b__0" class="LocationService.Persistence.InMemoryLocationRecordRepository/&lt;&gt;c__DisplayClass3_0" excluded="false" instrumented="true" fullname="System.Boolean LocationService.Persistence.InMemoryLocationRecordRepository/&lt;&gt;c__DisplayClass3_0::&lt;AllForMember&gt;b__0(LocationService.Models.LocationRecord)">
+      <seqpnt visitcount="0" line="31" column="52" endline="31" endcolumn="74" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="0" line="31" column="52" endline="31" endcolumn="74" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+    </method>
+    <method name="&lt;Delete&gt;b__0" class="LocationService.Persistence.InMemoryLocationRecordRepository/&lt;&gt;c__DisplayClass4_0" excluded="false" instrumented="true" fullname="System.Boolean LocationService.Persistence.InMemoryLocationRecordRepository/&lt;&gt;c__DisplayClass4_0::&lt;Delete&gt;b__0(LocationService.Models.LocationRecord)">
+      <seqpnt visitcount="0" line="38" column="65" endline="38" endcolumn="81" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="0" line="38" column="65" endline="38" endcolumn="81" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+    </method>
+    <method name="&lt;Get&gt;b__0" class="LocationService.Persistence.InMemoryLocationRecordRepository/&lt;&gt;c__DisplayClass5_0" excluded="false" instrumented="true" fullname="System.Boolean LocationService.Persistence.InMemoryLocationRecordRepository/&lt;&gt;c__DisplayClass5_0::&lt;Get&gt;b__0(LocationService.Models.LocationRecord)">
+      <seqpnt visitcount="0" line="52" column="65" endline="52" endcolumn="81" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+      <seqpnt visitcount="0" line="52" column="65" endline="52" endcolumn="81" excluded="false" document="C:\projects\LocationService\src\LocationService\Persistence\InMemoryLocationRecordRepository.cs" />
+    </method>
+    <method name="Main" class="LocationService.Program" excluded="false" instrumented="true" fullname="System.Void LocationService.Program::Main(System.String[])">
+      <seqpnt visitcount="0" line="11" column="13" endline="11" endcolumn="38" excluded="false" document="C:\projects\LocationService\src\LocationService\Program.cs" />
+    </method>
+    <method name="BuildWebHost" class="LocationService.Program" excluded="false" instrumented="true" fullname="Microsoft.AspNetCore.Hosting.IWebHost LocationService.Program::BuildWebHost(System.String[])">
+      <seqpnt visitcount="0" line="15" column="13" endline="17" endcolumn="25" excluded="false" document="C:\projects\LocationService\src\LocationService\Program.cs" />
+    </method>
+    <method name="ConfigureServices" class="LocationService.Startup" excluded="false" instrumented="true" fullname="System.Void LocationService.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+      <seqpnt visitcount="0" line="19" column="13" endline="19" endcolumn="31" excluded="false" document="C:\projects\LocationService\src\LocationService\Startup.cs" />
+      <seqpnt visitcount="0" line="20" column="13" endline="21" endcolumn="61" excluded="false" document="C:\projects\LocationService\src\LocationService\Startup.cs" />
+      <seqpnt visitcount="0" line="23" column="13" endline="26" endcolumn="16" excluded="false" document="C:\projects\LocationService\src\LocationService\Startup.cs" />
+    </method>
+    <method name="Configure" class="LocationService.Startup" excluded="false" instrumented="true" fullname="System.Void LocationService.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+      <seqpnt visitcount="0" line="32" column="13" endline="32" endcolumn="37" excluded="false" document="C:\projects\LocationService\src\LocationService\Startup.cs" />
+      <seqpnt visitcount="0" line="34" column="17" endline="34" endcolumn="49" excluded="false" document="C:\projects\LocationService\src\LocationService\Startup.cs" />
+      <seqpnt visitcount="0" line="37" column="13" endline="37" endcolumn="26" excluded="false" document="C:\projects\LocationService\src\LocationService\Startup.cs" />
+      <seqpnt visitcount="0" line="40" column="13" endline="40" endcolumn="30" excluded="false" document="C:\projects\LocationService\src\LocationService\Startup.cs" />
+      <seqpnt visitcount="0" line="43" column="13" endline="46" endcolumn="16" excluded="false" document="C:\projects\LocationService\src\LocationService\Startup.cs" />
+    </method>
+    <method name="&lt;ConfigureServices&gt;b__0_0" class="LocationService.Startup/&lt;&gt;c" excluded="false" instrumented="true" fullname="System.Void LocationService.Startup/&lt;&gt;c::&lt;ConfigureServices&gt;b__0_0(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions)">
+      <seqpnt visitcount="0" line="25" column="17" endline="25" endcolumn="93" excluded="false" document="C:\projects\LocationService\src\LocationService\Startup.cs" />
+      <seqpnt visitcount="0" line="25" column="17" endline="25" endcolumn="93" excluded="false" document="C:\projects\LocationService\src\LocationService\Startup.cs" />
+    </method>
+    <method name="&lt;Configure&gt;b__1_0" class="LocationService.Startup/&lt;&gt;c" excluded="false" instrumented="true" fullname="System.Void LocationService.Startup/&lt;&gt;c::&lt;Configure&gt;b__1_0(Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIOptions)">
+      <seqpnt visitcount="0" line="45" column="17" endline="45" endcolumn="76" excluded="false" document="C:\projects\LocationService\src\LocationService\Startup.cs" />
+      <seqpnt visitcount="0" line="45" column="17" endline="45" endcolumn="76" excluded="false" document="C:\projects\LocationService\src\LocationService\Startup.cs" />
+    </method>
+  </module>
+</coverage>
